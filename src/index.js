@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TodoListApp from "./components/TodoApp";
+import StarApp from './components/StarApp';
 
-ReactDOM.render(<TodoListApp/>, document.getElementById('root'));
+ReactDOM.render(<StarApp />,
+    document.getElementById('root'));
